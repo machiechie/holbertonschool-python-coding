@@ -1,5 +1,5 @@
 #!/usr/bin/python3
+""" This module creates a new class Square """
 class Square:
-    def _init_(self,size):
-        _size(int) = The size of the squiare
-        self._size = size
+    """ Empty class """
+    pass
