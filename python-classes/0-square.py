@@ -1,9 +1,7 @@
 #!/usr/bin/python3
-"""Module for creating Square class"""
+"""Defining a class (Square)"""
 
 
 class Square:
-    """A class representing Square"""
+    """Empty Class"""
     pass
-def __init__(self, size):
-    self._size = size
