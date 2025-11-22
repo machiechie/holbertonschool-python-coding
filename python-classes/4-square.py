@@ -2,19 +2,12 @@
 """
 4-square Module
 
-Defines the Square class with private size, property getters/setters
-for validation, and public methods for area calculation and printing
-the square representation.
 """
 
 
 class Square:
     """
     Represents a square.
-
-    This class encapsulates the size attribute using properties for controlled access
-    and validation, provides a method to calculate the square's area, and
-    a method to print the square representation.
 
     Attributes:
         __size (int): The size (side length) of the square (private).
@@ -23,8 +16,6 @@ class Square:
     def __init__(self, size=0):
         """
         Initializes a new Square instance.
-
-        This calls the property setter for initial size validation.
 
         Args:
             size (int): The size of the new square. Defaults to 0.
@@ -78,5 +69,4 @@ class Square:
             print()
         else:
             for _ in range(self.__size):
-                # Prints a row of '#' characters equal to the size
                 print("#" * self.__size)
